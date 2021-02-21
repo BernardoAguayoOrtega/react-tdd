@@ -1,26 +1,34 @@
 {
-  "name": "appointments",
-  "version": "1.0.0",
-  "description": "proyect to practice tdd",
-  "main": "index.js",
-  "scripts": {
-    "test": "nope"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BernardoAguayoOrtega/react-tdd.git"
-  },
-  "keywords": [
-    "react",
-    "tdd"
-  ],
-  "author": "Bernardo Aguayo Ortega",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BernardoAguayoOrtega/react-tdd/issues"
-  },
-  "homepage": "https://github.com/BernardoAguayoOrtega/react-tdd#readme",
-  "devDependencies": {
-    "jest": "^26.6.3"
-  }
+	"name": "appointments",
+	"version": "1.0.0",
+	"description": "proyect to practice tdd",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BernardoAguayoOrtega/react-tdd.git"
+	},
+	"keywords": [
+		"react",
+		"tdd"
+	],
+	"author": "Bernardo Aguayo Ortega",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BernardoAguayoOrtega/react-tdd/issues"
+	},
+	"homepage": "https://github.com/BernardoAguayoOrtega/react-tdd#readme",
+	"devDependencies": {
+		"@babel/plugin-transform-runtime": "^7.12.17",
+		"@babel/preset-env": "^7.12.17",
+		"@babel/preset-react": "^7.12.13",
+		"jest": "^26.6.3"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.12.18",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
 }
